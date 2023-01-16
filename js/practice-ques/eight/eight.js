@@ -1,13 +1,13 @@
 function countVowel(str) { 
     
-    const count = str.match(/[aeiou]/gi).length;
+  const count = str.match(/[aeiou]/gi).length;
   
-    return count;
+  return count;
 }
 const countVowelArrow=str=>{
 
-    const count = str.match(/[aeiou]/gi).length;
+  const count = str.match(/[aeiou]/gi).length;
   
-    return count;
-}
-module.exports={countVowel,countVowelArrow}
+  return count;
+};
+module.exports={countVowel,countVowelArrow};

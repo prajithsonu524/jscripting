@@ -1,32 +1,32 @@
-  function InvCapReg(str) {
-    const strLen = str.length;
-    let finalChar = "";
-    for (let i = 0; i < strLen; i++) {
-      const char = str.charAt(i);
-      if (char.toLowerCase() === char) {
-        finalChar += char.toUpperCase();
-      } else {
-        finalChar += char.toLowerCase();
-      }
+function InvCapReg(str) {
+  const strLen = str.length;
+  let finalChar = '';
+  for (let i = 0; i < strLen; i++) {
+    const char = str.charAt(i);
+    if (char.toLowerCase() === char) {
+      finalChar += char.toUpperCase();
+    } else {
+      finalChar += char.toLowerCase();
     }
-    return finalChar;
   }
+  return finalChar;
+}
 
 
 const InvCapArrow = (str) => {
-    const strLen = str.length;
-    let finalChar = "";
-    for (let i = 0; i < strLen; i++) {
-      const char = str.charAt(i);
-      if (char.toLowerCase() === char) {
-        finalChar += char.toUpperCase();
-      } else {
-        finalChar += char.toLowerCase();
-      }
+  const strLen = str.length;
+  let finalChar = '';
+  for (let i = 0; i < strLen; i++) {
+    const char = str.charAt(i);
+    if (char.toLowerCase() === char) {
+      finalChar += char.toUpperCase();
+    } else {
+      finalChar += char.toLowerCase();
     }
-    return finalChar;
   }
+  return finalChar;
+};
   
-  module.exports = {
-    InvCapArrow,InvCapReg
-  }
+module.exports = {
+  InvCapArrow,InvCapReg
+};
